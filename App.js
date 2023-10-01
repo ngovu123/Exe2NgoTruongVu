@@ -24,7 +24,7 @@ function CustomNavigationBar({ navigation, route, options, back }) {
       <Appbar.Content title={title} />
       {!back ? (
         <Appbar.Action
-          icon="dots-vertical"
+          
           onPress={openMenu}
         />
       ) : null}
